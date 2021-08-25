@@ -1,0 +1,31 @@
+{
+  "name": "iTechArt-traineeship",
+  "version": "1.0.0",
+  "description": "[Look here](https://codepen.io/Nikita_Davidovich/pen/KKqKMwd)\r # **2.Filter function polifil**\r [Look here](https://codepen.io/Nikita_Davidovich/pen/OJgJXPY)\r # **3.Reduce function polifil**\r [Look here](https://codepen.io/Nikita_Davidovich/pen/eYRYzpg)\r # **4.Map**\r [Look here](https://codepen.io/Nikita_Davidovich/pen/ExXxNmK)\r # **5.Filter**\r [Look here](https://codepen.io/Nikita_Davidovich/pen/BaZaQRO)\r # **6.Reduce**\r [Look here](https://codepen.io/Nikita_Davidovich/pen/WNONoOP)\r # **7.Get Unique**\r [Look here](https://codepen.io/Nikita_Davidovich/pen/gOROLxz)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "lint": "eslint /iTechArt-traineeship",
+    "lint:fix": "eslint /iTechArt-traineeship --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikita-Davidovich/iTechArt-traineeship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikita-Davidovich/iTechArt-traineeship/issues"
+  },
+  "homepage": "https://github.com/Mikita-Davidovich/iTechArt-traineeship#readme"
+}
