@@ -12,3 +12,7 @@
 [Look here](https://codepen.io/Nikita_Davidovich/pen/WNONoOP)
 # **7.Get Unique**
 [Look here](https://codepen.io/Nikita_Davidovich/pen/gOROLxz)
+# **8.Write function bind**
+[Look here](https://codepen.io/Nikita_Davidovich/pen/mdwdjWv)
+# **9.Output the answers to the console, via bind, fixed a bug in the constructor**
+[Look here](https://codepen.io/Nikita_Davidovich/pen/rNwNZbb)
