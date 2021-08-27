@@ -10,6 +10,7 @@
     "max-len":"off",
     "linebreak-style":"off",
     "func-names":"off",
-    "prefer-rest-params":"off"
+    "prefer-rest-params":"off",
+    "no-restricted-syntax":"off"
   }
 }
