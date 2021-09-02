@@ -1,4 +1,4 @@
-const downloads = [
+const DOWNLOADS = [
   {
     id: 1,
     title: 'Recipe',
@@ -28,36 +28,36 @@ const downloads = [
 
 const table = document.querySelector('.table');
 const button = document.querySelector('.button');
+const pending = 'Pending';
+const done = 'Done';
 
-function createTable() {
-  for (const el of downloads) {
+(function createTable() {
+  for (const download of DOWNLOADS) {
     const tr = document.createElement('tr');
-    const td1 = document.createElement('td');
-    td1.innerHTML = el.id;
-    tr.appendChild(td1);
+    const tdId = document.createElement('td');
+    tdId.innerHTML = download.id;
+    tr.appendChild(tdId);
 
-    const td2 = document.createElement('td');
-    td2.innerHTML = el.title;
-    tr.appendChild(td2);
+    const tdTitle = document.createElement('td');
+    tdTitle.innerHTML = download.title;
+    tr.appendChild(tdTitle);
 
-    const td3 = document.createElement('td');
-    td3.setAttribute('id', el.id);
-    td3.innerHTML = el.status;
-    tr.appendChild(td3);
+    const tdStatus = document.createElement('td');
+    tdStatus.setAttribute('id', download.id);
+    tdStatus.innerHTML = download.status;
+    tr.appendChild(tdStatus);
 
     table.appendChild(tr);
   }
-}
-
-createTable();
+}());
 
 let myTimer = null;
 
 function changeStatus() {
-  for (const item of downloads) {
+  for (const item of DOWNLOADS) {
     const td = document.getElementById(item.id);
-    if (td.textContent === 'Pending') {
-      td.textContent = 'Done';
+    if (td.textContent === pending) {
+      td.textContent = done;
       console.log('Check started');
       return;
     }
