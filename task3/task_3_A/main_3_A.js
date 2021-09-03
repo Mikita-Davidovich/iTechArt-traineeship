@@ -26,10 +26,16 @@ const DOWNLOADS = [
   },
 ];
 
+const DOWNLOAD_STATUSES = {
+  done: 'Done',
+  pending: 'Pending',
+  failed: 'Failed',
+};
+
 const table = document.querySelector('.table');
 const button = document.querySelector('.button');
-const pending = 'Pending';
-const done = 'Done';
+const TIMEOUT = 3000;
+const INTERVAL = 5000;
 
 (function createTable() {
   for (const download of DOWNLOADS) {
@@ -56,8 +62,8 @@ let myTimer = null;
 function changeStatus() {
   for (const item of DOWNLOADS) {
     const td = document.getElementById(item.id);
-    if (td.textContent === pending) {
-      td.textContent = done;
+    if (td.textContent === DOWNLOAD_STATUSES.pending) {
+      td.textContent = DOWNLOAD_STATUSES.done;
       console.log('Check started');
       return;
     }
@@ -69,8 +75,8 @@ function timer() {
   setTimeout(() => {
     myTimer = setInterval(() => {
       changeStatus();
-    }, 5000);
-  }, 3000);
+    }, INTERVAL);
+  }, TIMEOUT);
 }
 
 button.addEventListener('click', () => {
