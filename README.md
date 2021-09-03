@@ -16,3 +16,7 @@
 [Look here](https://codepen.io/Nikita_Davidovich/pen/mdwdjWv)
 # **9.Output the answers to the console, via bind, fixed a bug in the constructor**
 [Look here](https://codepen.io/Nikita_Davidovich/pen/rNwNZbb)
+# **10.Update Status**
+[Look here](https://codepen.io/Nikita_Davidovich/pen/RwgPBPj)
+# **11.Duplicate input**
+[Look here](https://codepen.io/Nikita_Davidovich/pen/qBjdyZR)
