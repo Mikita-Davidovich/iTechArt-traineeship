@@ -20,3 +20,11 @@
 [Look here](https://codepen.io/Nikita_Davidovich/pen/RwgPBPj)
 # **11.Duplicate input**
 [Look here](https://codepen.io/Nikita_Davidovich/pen/qBjdyZR)
+# **12.Say 'Hi' after 2 minutes**
+[Look here](https://codepen.io/Nikita_Davidovich/pen/dyRXrEM)
+# **13.Serial output**
+[Look here](https://codepen.io/Nikita_Davidovich/pen/oNwLVKb)
+# **14.Outputs the result if the execution time did not exceed 2 seconds**
+[Look here](https://codepen.io/Nikita_Davidovich/pen/GREqLGd)
+# **15.Replace recursion with loop using async / await**
+[Look here](https://codepen.io/Nikita_Davidovich/pen/PojzgdB)
